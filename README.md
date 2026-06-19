@@ -34,7 +34,7 @@ PizzaBot acts as a friendly pizza shop assistant that can answer customer questi
 ```text
 project/
 │
-├── main.py              # FastAPI application
+├── ai.py              # FastAPI application
 ├── .env                 # Environment variables
 ├── requirements.txt     # Dependencies
 └── README.md
@@ -47,8 +47,8 @@ project/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/pizzabot-api.git
-cd pizzabot-api
+git clone https://github.com/Gemstony/AI_ChatBOT_Based_on_API.git
+cd AI_ChatBOT_Based_on_API
 ```
 
 ### 2. Create a virtual environment
@@ -96,7 +96,7 @@ Get your API key from the Groq Console.
 Start the FastAPI server:
 
 ```bash
-uvicorn main:app --reload
+uvicorn ai:app --reload
 ```
 
 Server will be available at:
